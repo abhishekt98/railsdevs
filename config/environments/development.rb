@@ -85,6 +85,8 @@ Rails.application.configure do
   # Enable local development exposed via ngrok for webhook testing.
   # config.hosts << /.*\.ngrok\.io/
 
+  config.hosts << "blog.neetodeployapp.com"
+
   # Set the developer response grace period to 1 second to makes sure the delay is working
   # but short enough that a human wouldn't even notice it.
   config.developer_response_grace_period = 1.second
