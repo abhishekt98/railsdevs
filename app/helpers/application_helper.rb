@@ -1,7 +1,4 @@
 module ApplicationHelper
-  def hotwire_livereload_tags
-    super if Rails.env.development?
-  end
 
   def stylesheet_link_tags
     stylesheets =
